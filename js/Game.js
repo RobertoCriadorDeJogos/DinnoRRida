@@ -206,8 +206,8 @@ class Game {
   handleGrass(index) {
     animals[index - 1].overlap(grass, function(collector, collected) {
        //Remova o comentário da linha de código correta entre essas 4, para aumentar a pontuação em 21 pontos.
-      //player.score += 21;
-       score += 21;
+         player.score += 21;
+      // score += 21;
       // player.score + 21;
       // player += 21;
       player.update();
